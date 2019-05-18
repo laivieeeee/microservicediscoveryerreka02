@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-zuul" />
+        <module name="micreaoservice-dicovery-eureka-provider02" />
+        <module name="micreoservice-dicovery-eureka-consumer" />
+        <module name="micreoservice-dicovery-eureka-provider03" />
+        <module name="micreoservice-dicovery-eureka-server02" />
+        <module name="micreoservice-discovery-eureka-server" />
+        <module name="microservicediscoveryerreka02" />
+        <module name="rest-template" />
+        <module name="ribbon-client" />
+        <module name="ribbon-server" />
+        <module name="ribbon-server02" />
+        <module name="zuul-provider" />
+        <module name="zuul-router" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-provider" options="-parameters" />
+      <module name="eureka-zuul" options="-parameters" />
+      <module name="micreaoservice-dicovery-eureka-provider02" options="-parameters" />
+      <module name="micreoservice-dicovery-eureka-consumer" options="-parameters" />
+      <module name="micreoservice-dicovery-eureka-provider03" options="-parameters" />
+      <module name="micreoservice-dicovery-eureka-server02" options="-parameters" />
+      <module name="micreoservice-discovery-eureka-server" options="-parameters" />
+      <module name="rest-template" options="-parameters" />
+      <module name="ribbon-client" options="-parameters" />
+      <module name="ribbon-server" options="-parameters" />
+      <module name="ribbon-server02" options="-parameters" />
+      <module name="zuul-provider" options="-parameters" />
+      <module name="zuul-router" options="-parameters" />
+    </option>
+  </component>
+</project>

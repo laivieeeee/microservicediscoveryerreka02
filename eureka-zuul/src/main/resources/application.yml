@@ -1,0 +1,29 @@
+
+server:
+  port: 9090
+
+spring:
+  application:
+    name: eureka-zuul
+#将端口注册到eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+#如果访问是/users开头，则跳转到eureka-consumer过去
+zuul:
+  routes:
+    users:
+      path: /users/**
+      serviceId: eureka-consumer
+    myForword:
+      path: /mf/**
+      url: forward:/sayHi
+    baidu:
+      url: https://www.baidu.com
+    simple:
+      path: /simple/**
+      url: http://www.163.com
+    legacy:
+      path: /**
+      url: https://www.toutiao.com

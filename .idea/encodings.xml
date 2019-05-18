@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/eureka-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micreaoservice-dicovery-eureka-provider02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micreoservice-dicovery-eureka-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micreoservice-dicovery-eureka-provider03" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micreoservice-dicovery-eureka-server02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micreoservice-discovery-eureka-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micreoservice-discovery-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rest-template" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-server02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-router" charset="UTF-8" />
+  </component>
+</project>

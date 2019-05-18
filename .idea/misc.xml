@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/micreoservice-discovery-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/micreoservice-dicovery-eureka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/micreoservice-dicovery-eureka-server02/pom.xml" />
+        <option value="$PROJECT_DIR$/micreaoservice-dicovery-eureka-provider02/pom.xml" />
+        <option value="$PROJECT_DIR$/micreoservice-dicovery-eureka-provider03/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-server/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-client/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-server02/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-template/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-router/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-zuul/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

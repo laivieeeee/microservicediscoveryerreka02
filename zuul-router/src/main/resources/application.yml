@@ -1,0 +1,10 @@
+
+
+server:
+  port: 8081
+
+zuul:
+  routes:
+    users:
+      path: /myusers/**
+      url: http://localhost:8080
