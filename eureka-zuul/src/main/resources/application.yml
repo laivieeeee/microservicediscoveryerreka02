@@ -5,12 +5,10 @@ server:
 spring:
   application:
     name: eureka-zuul
-#将端口注册到eureka
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
-#如果访问是/users开头，则跳转到eureka-consumer过去
 zuul:
   routes:
     users:
